@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew bootRun)",
+      "Bash(mysql:*)",
+      "Bash(lsof -ti:8080)",
+      "Bash(xargs kill:*)"
+    ]
+  }
+}
